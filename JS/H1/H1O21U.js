@@ -20,6 +20,7 @@ function draw() {
   stroke('white');
   strokeWeight(10);
 
+
   if (snelheid == 5) {
       fill('green');
   }
@@ -38,6 +39,6 @@ function draw() {
     snelheid = -1*snelheid;
   }
 
-  x += snelheid;
+    x += snelheid;
   ellipse(x,170,diameter);
 }
